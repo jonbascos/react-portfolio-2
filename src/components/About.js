@@ -20,9 +20,9 @@ function About(props) {
 					</p>
 					<br />
 					<p>
-						I'm a graduate of the PDX Code Guild 14-week Bootcamp.
-						During the Bootcamp, we focused on being full stack
-						Python-based web develoeprs. My current (and ever
+						I'm a graduate of the PDX Code Guild hands-on 14-week
+						Bootcamp. During the Bootcamp, we focused on being full
+						stack Python-based web developers. My current (and ever
 						evolving knowledge) includes Python, Django, Django REST
 						Framework, VueJS, HTML, CSS, and Javascript. I'm
 						currently learning ReactJS to add to my toolbelt.
