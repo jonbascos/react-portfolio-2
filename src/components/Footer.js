@@ -80,6 +80,8 @@ function Footer(props) {
 			</footer>
 			<div className='copyright-info'>
 				Copyright &copy; 2020 by Jon Bascos
+				<br />
+				<em>Hero photo credit to Josh Haggard, Portland Oregon</em>
 			</div>
 		</div>
 	);
