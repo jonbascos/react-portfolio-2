@@ -31,7 +31,7 @@ function Footer(props) {
 								<FontAwesomeIcon
 									icon={faTwitter}
 									size='2x'
-									style={{ color: 'teal' }}
+									style={{ color: 'white' }}
 								/>
 							</a>
 						</li>
@@ -44,7 +44,7 @@ function Footer(props) {
 								<FontAwesomeIcon
 									icon={faLinkedin}
 									size='2x'
-									style={{ color: 'teal' }}
+									style={{ color: 'white' }}
 								/>
 							</a>
 						</li>
@@ -58,7 +58,7 @@ function Footer(props) {
 								<FontAwesomeIcon
 									icon={faGithub}
 									size='2x'
-									style={{ color: 'teal' }}
+									style={{ color: 'white' }}
 								/>
 							</a>
 						</li>
@@ -71,7 +71,7 @@ function Footer(props) {
 								<FontAwesomeIcon
 									icon={faFilePdf}
 									size='2x'
-									style={{ color: 'teal' }}
+									style={{ color: 'white' }}
 								/>
 							</a>
 						</li>
