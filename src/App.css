@@ -70,15 +70,17 @@ header nav ul {
 	align-items: center;
 }
 
-.portfolio-picture {
-	margin-top: 10px;
-	height: 150px;
-	width: 150px;
-	border-radius: 50%;
+.intro-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 .social-media {
 	display: flex;
+	justify-content: center;
 	list-style: none;
 	margin-top: 10px;
 }
@@ -93,19 +95,27 @@ header nav ul {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px;
 	line-height: 1.5em;
-	/* background-color: #333a40; */
 	background-color: black;
 }
 
 .about-contents {
 	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 	margin-top: 10px;
-	background-color: #333a40;
-	padding: 20px;
 	border-radius: 10px;
 	max-width: 90%;
+	padding: 20px;
+}
+
+.portfolio-picture {
+	margin-bottom: 20px;
+	height: 150px;
+	width: 150px;
+	border-radius: 25%;
 }
 
 /* Skills section CSS */
@@ -138,7 +148,6 @@ header nav ul {
 /* Portfolio Card CSS */
 
 .portfolio-container {
-	/* background-color: #333a40; */
 	background-color: black;
 }
 
@@ -167,7 +176,6 @@ header nav ul {
 	margin: 10px;
 	height: 100%;
 	padding: 10px;
-	/* background-color: #333a40; */
 }
 
 .portfolio-images {
@@ -179,7 +187,9 @@ header nav ul {
 /* Footer section CSS */
 
 .footer-container {
-	/* background-color: #333a40; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	background-color: black;
 	padding: 5px;
 }
@@ -211,13 +221,22 @@ footer {
 		font-size: 1.5em;
 	}
 
+	.about-contents {
+		flex-direction: row;
+	}
+
+	.about-contents p {
+		padding: 10px;
+	}
+
 	.image-container {
 		margin-right: 100px;
 	}
 
 	.portfolio-picture {
-		height: 175px;
-		width: 175px;
+		height: 200px;
+		width: 200px;
+		margin: 0 20px;
 	}
 
 	.nav-items {
@@ -227,11 +246,6 @@ footer {
 	.nav-items li {
 		margin-right: 20px;
 		font-size: 1.2em;
-	}
-
-	.profile-picture {
-		height: 200px;
-		width: 200px;
 	}
 
 	.skills-container {

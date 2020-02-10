@@ -1,5 +1,6 @@
 import React from 'react';
 import Skills from './Skills';
+import headshot from '../static/images/headshot.jpg';
 
 function About(props) {
 	return (
@@ -8,7 +9,13 @@ function About(props) {
 				<h1 className='headings'>
 					<a name='About'>About Me</a>
 				</h1>
+
 				<div className='about-contents'>
+					<img
+						src={headshot}
+						alt='Jon Bascos, Web Developer'
+						className='portfolio-picture'
+					/>
 					<p>
 						I am a Web Developer born and raised in the Silicon
 						Valley and moved to the Portland area in 2005. I enjoy

@@ -9,7 +9,7 @@ function ProjectCard(props) {
 		return (
 			<li className='portfolio-card' key={item.id}>
 				<Card
-					className='individual-cards border-info'
+					className='individual-cards'
 					bg='dark'
 					text='white'
 					style={{ width: '20rem' }}

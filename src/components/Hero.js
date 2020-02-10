@@ -13,18 +13,11 @@ import headshot from '../static/images/headshot.jpg';
 function Hero(props) {
 	return (
 		<div className='hero-container'>
-			<div className='image-container'>
-				<a name='home'>
-					<img
-						src={headshot}
-						alt='Jon Bascos, Web Developer'
-						className='portfolio-picture'
-					/>
-				</a>
-			</div>
 			<div className='intro-container'>
-				<h1>My name is Jon!</h1>
-				<p>Full Stack Web Developer</p>
+				<a name='home'>
+					<h1>My name is Jon!</h1>
+				</a>
+				<h2>And I'm a Full Stack Web Developer</h2>
 				<ul className='social-media'>
 					<li>
 						<a
