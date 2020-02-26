@@ -42,7 +42,7 @@ const portfolioList = [
 			'https://medictodev-portfolio.s3-us-west-2.amazonaws.com/todolist.jpg',
 		description:
 			'Your standard todo list app built with React and utilizing React Hooks for setting state.  One of the challenges I had with this project was the input field not being cleared after entering a new item.  With persistence, I was able to solve the issue which was being caused by one little word in the code.',
-		liveUrl: 'https://jonbascos.github.io/git-er-done/',
+		liveUrl: 'https://git-er-done-1ef32.firebaseapp.com',
 		githubUrl: 'https://github.com/jonbascos/git-er-done',
 		tech: 'React, CSS, React Bootstrap'
 	}
