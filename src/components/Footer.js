@@ -7,7 +7,7 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons"
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons"
-import resume from "../resume.pdf"
+import resume from "../Jon_Bascos_resume.pdf"
 
 function Footer(props) {
   const date = new Date()
